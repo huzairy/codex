@@ -1,0 +1,13 @@
+# Site settings
+title: "Your codex title"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+
+# Build settings
+markdown: kramdown
+
+#Collections
+collections:
+ section: # Collections name
+  output: false # We tell Jekyll to decline generating each section page
